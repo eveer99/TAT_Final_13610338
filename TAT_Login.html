@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <title>Login</title>
+
+        <style>
+            *:focus {
+                outline: 0 !important;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="containerLogo d-none d-lg-block">
+            <img class="imglogo" src="img/Logo.png" style="height: 90px; width: 90px;">
+        </div>
+    
+        <!-- Nav  -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid col-12">
+                <a class="navbar-brand" href="#"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav container-fluid col-11 d-flex justify-content-end me-auto mb-2 mb-lg-0" style="position: fixed;  background-color: white;">
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="TAT_Index_Part1.html">หน้าแรก</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="TAT_About.html">เกี่ยวกับโครงการ</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="TAT_Terms.html">สมัครการประกวด</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="#">แชร์ประสบการณ์</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="TAT_Register.html">ลงทะเบียน</a>                       
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link active" style="font-size: small; color: #0D65AD;" href="TAT_Login.html">เข้าสู่ระบบ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End Nav -->
+
+        <center>
+        <div class="container-fluid mt-4">
+            <div class="bgform col-md-10 col-lg-5 mt-5" style="text-align: start;">
+                <h5 style="color: #0D65AD;"><b>เข้าสู่ระบบ</b></h5>
+                <p style="color: #8692A6;">เข้าสู่ระบบสำหรับผู้ที่ได้ลงทะเบียนเรียบร้อยแล้ว
+                    ยังไม่ได้ลงทะเบียน<br> ต้องการ <a href="TAT_Register.html" style="font-size: 400; color: #0D65AD;">ลงทะเบียน</a></p>
+
+                <label for="Input" class="form-label" style="color: #696F79;">Email</label>
+                <input type="text" class="form-control" id="input"
+                       style="border-radius: 10px; 
+                       height: 55px;
+                       font-weight: 300;
+                       font-size: 12px;" placeholder="Email">
+
+                <label for="Input" class="form-label mt-4" style="color: #696F79;">รหัสผ่าน</label>
+                <input type="password" class="form-control" id="Input" 
+                       style="border-radius: 10px; 
+                       height: 55px;
+                       font-weight: 300;
+                       font-size: 12px;" placeholder="รหัสผ่าน">
+
+                <button type="button" class="btn mt-5"
+                        style="background: #1565D8;
+                        border-radius: 50px;
+                        color: white;
+                        font-size: smaller;
+                        width: 100%;
+                        height: 50px;">เข้าสู่ระบบ</button>
+            </div>
+
+            <div class="mt-5">
+                <p class="footer" style="font-size: x-small; font-weight: 400; text-align: center; color: #0D65AD;">การท่องเที่ยวแห่งประเทศไทย (สำนักงานใหญ่) 1600 ถ.เพชรบุรีตัดใหม่ แขวงมักกะสัน เขตราชเทวีกรุงเทพฯ 10400 <br>ประเทศไทยโทรศัพท์: (66)2 250 5500 ศูนย์บริการช่วยเหลือนักท่องเที่ยว ททท.: 1672 <br>The official website of Tourism Authority of Thailandhttps://www.tourismthailand.org/</p>
+            </div>
+        </div>
+
+        <div class="container2">
+            <img class="imgbg" src="img/bg2.png">
+        </div>
+        
+        </center>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+        </script>
+    </body>
+</html>

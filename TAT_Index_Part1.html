@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <title>TAT</title>
+    </head>
+
+    <body>
+        <div class="containerLogo">
+            <img class="imglogo d-none" src="img/Logo.png" style="height: 90px; width: 90px;">
+        </div>
+    
+        <!-- Nav  -->
+
+        <div class="containerLogo d-none d-lg-block">
+            <img class="imglogo" src="img/Logo.png" style="height: 90px; width: 90px;">
+        </div>
+    
+        <!-- Nav  -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid col-12">
+                <a class="navbar-brand" href="#"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav container-fluid col-11 d-flex justify-content-end me-auto mb-2 mb-lg-0" style="position: fixed;  background-color: white;">
+                        <li>
+                            <a class="nav-item nav-link active" style="font-size: small; color: #0D65AD;" href="TAT_Index_Part1.html">หน้าแรก</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="TAT_About.html">เกี่ยวกับโครงการ</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="TAT_Terms.html">สมัครการประกวด</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="#">แชร์ประสบการณ์</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="TAT_Register.html">ลงทะเบียน</a>                       
+                        </li>
+
+                        <li>
+                            <a class="nav-item nav-link" style="font-size: small; color: #0D65AD;" href="TAT_Login.html">เข้าสู่ระบบ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+            <!-- <nav class="navbar navbar-expand-lg navbar-light" style="font-weight: 400;"> 
+                <div class="d-flex justify-content-end">
+                    <button type="button" class="container buttonmn d-flex justify-content-center" style="width: 50px; text-align: center;" onclick="openNav()" ><i class="fas fa-bars"></i></button> 
+        
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                        <a class="nav-item nav-link active" style="color: #0D65AD; font-family: 'Mitr', sans-serif; font-weight: 400; font-size: smaller;" href="TAT_Index_Part1.html">หน้าแรก</a>
+                        <a class="nav-item nav-link" style="color: #0D65AD; font-family: 'Mitr', sans-serif; font-weight: 400; font-size: smaller;" href="TAT_About.html">เกี่ยวกับโครงการ</a>
+                        <a class="nav-item nav-link" style="color: #0D65AD; font-family: 'Mitr', sans-serif; font-weight: 400; font-size: smaller;" href="TAT_Terms.html font-family: 'Mitr', sans-serif; font-weight: 400; font-size: smaller;">สมัครการประกวด</a>
+                        <a class="nav-item nav-link" style="color: #0D65AD; font-family: 'Mitr', sans-serif; font-weight: 400; font-size: smaller;" href="#">แชร์ประสบการณ์</a>
+                        <a class="nav-item nav-link" style="color: #0D65AD; font-family: 'Mitr', sans-serif; font-weight: 400; font-size: smaller;" href="TAT_Register.html">ลงทะเบียน</a>
+                        <a class="nav-item nav-link" style="color: #0D65AD; font-family: 'Mitr', sans-serif; font-weight: 400; font-size: smaller;" href="TAT_Login.html">เข้าสู่ระบบ</a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="container d-flex justify-content-end">
+                        <div class="navbar-nav" style="font-size: smaller;">
+                            <a class="nav-item nav-link active" style="color: #0D65AD;" href="TAT_Index_Part1.html">หน้าแรก</a>
+                            <a class="nav-item nav-link" style="color: #0D65AD;" href="TAT_About.html">เกี่ยวกับโครงการ</a>
+                            <a class="nav-item nav-link" style="color: #0D65AD;" href="TAT_Terms.html">สมัครการประกวด</a>
+                            <a class="nav-item nav-link" style="color: #0D65AD;" href="#">แชร์ประสบการณ์</a>
+                            <a class="nav-item nav-link" style="color: #0D65AD;" href="TAT_Register.html">ลงทะเบียน</a>
+                            <a class="nav-item nav-link" style="color: #0D65AD;" href="TAT_Login.html">เข้าสู่ระบบ</a>
+                        </div>
+                    </div>
+                </div>
+            </nav> -->
+        <!-- End Nav -->
+        
+        <center>
+        <div class="col-md-9">
+            <div class="row mt-5" style="color: #0D65AD; font-family: 'Mitr', sans-serif;">
+                <div class="col-2 col-lg-4 d-none d-lg-block d-flex justify-content-end">
+                    <img src="img/cut.png" style="width: 45%;">
+                </div>
+
+                <div class="col-10 col-lg-8" style="letter-spacing: 2px;">
+                    <h1 class="col-12 d-flex justify-content-start"><b>ร่วมสร้างสรรค์วิดีโอ ส่งเข้าประกวด</b></h1><br>
+                    <h1 class="col-12" style=" margin-right: 300px; font-weight: 400;">เปิด <b>ศักยภาพ</b> ในตัวคุณ</h1>
+                </div>
+            </div>
+
+            <div class="row align-items-center mt-5 mb-5">
+                <div class="col-12 col-lg-3 px-lg-4 px-2 mb-2 mb-md-0">
+                    <div class="row align-items-end align-items-md-start">                   
+                        <div class="col-6 col-lg-12 mb-0 mb-md-4 px-2 px-md-0">
+                            <img class="img-fluid img-build" src="img/Image.png">
+                        </div>
+
+                        <div class="col-6 col-lg-12 px-2 px-md-0">
+                            <img class="img-fluid img-build" src="img/Card 3.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-9 col-12">
+                    <div class="row align-items-center align-items-md-end">
+                        <div class="col-12 col-lg-7">
+                            <img class="img-fluid img-build" src="img/Card 7.png" style="margin-top: -20px;">
+                        </div>
+
+                        <div class="col-12 col-lg-5 px-lg-4 px-2">
+                            <img class="img-fluid img-build" src="img/Card 2.png">
+                        </div>
+                    </div>
+
+                    <div class="row mt-2 mt-md-4">
+                        <div class="col-12 col-lg-4 px-lg-4 px-2">
+                            <img class="img-fluid img-build" src="img/Card 4.png">
+                        </div>
+
+                        <div class="col-12 col-lg-5 px-lg-4 px-2">
+                            <img class="img-fluid img-build" src="img/Card 5.png">
+                        </div>
+
+                        <div class="col-12 col-lg-2 px-lg-4 px-2">
+                            <img class="img-fluid img-build" src="img/Card 6.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn mt-5" onclick="location.href='TAT_Register.html';"
+                    style="background: #1565D8;
+                    border-radius: 100px;
+                    color: white;
+                    font-size: smaller;
+                    margin-bottom: 50px;
+                    width: 40%;
+                    height: 50px;">สมัครประกวด</button>
+
+            <!-- Countdown -->
+            <div class="containercd col-lg-6 col-sm-12">
+                <h4>เหลือเวลาการสมัคร</h4>
+
+                <div class="countdown" style="color: #2D9AFF;">
+                    <ul class="row col-12">
+                        <li class="col-3" style="color: #9FD4FF; font-weight: 200;"><span style="color: #2D9AFF;" id="days"></span>วัน</li>
+                        <li class="col-3" style="color: #9FD4FF; font-weight: 200;"><span style="color: #2D9AFF;" id="hours"></span>ชั่วโมง</li>
+                        <li class="col-3" style="color: #9FD4FF; font-weight: 200;"><span style="color: #2D9AFF;" id="minutes"></span>นาที</li>
+                        <li class="col-3" style="color: #9FD4FF; font-weight: 200;"><span style="color: #2D9AFF;" id="seconds"></span>วินาที</li>
+                    </ul>
+                </div>
+            </div>
+             <!-- End Countdown -->
+
+            <div class="mt-5">
+                <p class="footer" style="font-size: x-small; font-weight: 400; text-align: center; color: #0D65AD;">การท่องเที่ยวแห่งประเทศไทย (สำนักงานใหญ่) 1600 ถ.เพชรบุรีตัดใหม่ แขวงมักกะสัน เขตราชเทวีกรุงเทพฯ 10400 <br>ประเทศไทยโทรศัพท์: (66)2 250 5500 ศูนย์บริการช่วยเหลือนักท่องเที่ยว ททท.: 1672 <br>The official website of Tourism Authority of Thailandhttps://www.tourismthailand.org/</p>
+            </div>
+        </div>
+        </center>
+
+        <div class="container2">
+            <img class="imgbg" src="img/bg2.png">
+        </div>
+       
+        <!-- script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+        </script>
+
+        <!-- <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+                document.getElementById("main").style.marginLeft = "150px";
+                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+                document.body.style.backgroundColor = "white";
+            }
+        </script> -->
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("October 31, 2022 24:00:00").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+            // Get today's date and time
+            var now = new Date().getTime();
+                
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+                
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    
+            // Output the result in an element with id="demo"
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+                             
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "EXPIRED";
+                }
+            }, 1000);
+        </script>
+    </body>
+</html>
+
+
+    
